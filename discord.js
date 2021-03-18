@@ -150,6 +150,9 @@ bot.on('message', async msg => {
     case 'negro':
       msg.channel.send("Pero un negrote ... un NEGROTE", {files: ["https://cdn.discordapp.com/attachments/776188662371057714/799128640641695775/unknown.png"]});        
       break;
+    case 'yaantojaron':
+      msg.channel.send("", {files: ["https://cdn.discordapp.com/attachments/817617608647376916/821947361701396550/FB_IMG_1616015687535.jpg"]});        
+      break;
 
     //audios
     case 'gallo':
@@ -188,7 +191,7 @@ bot.on('message', async msg => {
       break;
     case 'theo':
       execute(msg,serverQueue,'https://www.youtube.com/watch?v=GD1dpLSvoNU');
-      msg.channel.send("¿Pa cuando la pija?", {files: ["https://scontent.fmzt1-1.fna.fbcdn.net/v/t1.0-9/69611967_920828181611408_1316539048252145664_o.jpg?_nc_cat=100&_nc_sid=dd9801&_nc_ohc=whno7JAhLfUAX-jVlJh&_nc_ht=scontent.fmzt1-1.fna&oh=1e5dcc67a77b41aa3c2e9c1f6ab3ba58&oe=5FB1A307"]});        
+      msg.channel.send("¿Pa cuando la pija?", {files: ["https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/1bafec53-40c6-4acd-a09d-fb22ce6f82f4/dd6eixr-c2643301-f0ae-42c2-a01a-834856c17f0e.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvMWJhZmVjNTMtNDBjNi00YWNkLWEwOWQtZmIyMmNlNmY4MmY0XC9kZDZlaXhyLWMyNjQzMzAxLWYwYWUtNDJjMi1hMDFhLTgzNDg1NmMxN2YwZS5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.rxWB6SHPCbPGIr3lJgOqwCi__6F7PSdW-ptLzYmjrtg"]});        
       break;    
     case 'miraizura':
       msg.channel.send("Mirai zura bazura", {files: ["https://i.ytimg.com/vi/kWIqP0dURvQ/maxresdefault.jpg"]});
